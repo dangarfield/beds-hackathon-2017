@@ -1,4 +1,4 @@
-# Bedfordshire University Hackathon - Scenarios
+# Scenarios
 
 ## Scenario 1
 
@@ -149,7 +149,7 @@ __TODO__ Security team...
 
 ---
 
-## Chess in a browser (without AI/ML element - supply past games and step through forward and backwards)
+## Chess or Battleships in a browser (without AI/ML element - supply past games and step through forward and backwards)
 
 ---
 
