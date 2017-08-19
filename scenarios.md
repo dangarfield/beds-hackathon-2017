@@ -66,13 +66,13 @@ __Level 3__
 
 ## Scenario 3
 
-__Title__ Global weather data - show on map
+__Title__ "What's the weather like where we're going today?"
 
 __Description__
 
 On-board ship - keeping up-to-date with changes in the weather is vital.  On-board a cruise ship is no different - except now there are many more interested parties - our customers!
 
-At TUI we always strive to give our customers the absolute best holiday experience we can.  Of course, we can't change the weather - but we can give our customers the most accurate & up-to-date information.
+At TUI we always strive to give our customers the absolute best holiday experience we can.  Of course, we can't change the weather - but we can give our customers the most accurate & up-to-date information possible.
 
 __Level 1__
 
@@ -116,7 +116,7 @@ __Level 3__
 
 ## Scenario 4
 
-__Title__ Track cruise customer not on-board ship.
+__Title__ Track cruise customers that are not on-board.
 
 __Description__
 
@@ -141,15 +141,49 @@ __Level 3__
 - You've got a number of RFID chips - your plan is to give these to the customers at the start of the cruise then use them to automatically get the logging system to register if they are on-board or not by scanning the chip as they disembark & return.
 - Convert your logging system to use these RFID chips.  You'll need to keep the old 'manual' entry system tough, just in case!
 
----
+
+## Scenario 5
+
+__Title__ Battleships in a browser.
+
+__Description__
+
+Being the caption of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also time for a little rest & relaxation.
+
+At these times all our captions choose a nice game of... What else - Battleships (https://en.wikipedia.org/wiki/Battleship_(game))!
+
+These games are highly competitive & there is a captions league table.  The winner each year gets keep the special Admirals Cup in their cabin.
+
+Games currently are played by radio - this is inefficient as it requires both players to be tied to the radio set for the duration of the game.  It's also been alluded to that some games have been so long - & so heated - that some essential information could not get through due the radio being used for this 'other' purpose!
+
+__Level 1__
+
+- TUI values it's captions highly - but it values it's customers more so.  The use of the radio is becoming unacceptable for playing games over, but you do need a way for your captions to relax, chill out & kickback with a nice game of Battleships.
+- All ships have internet connections.
+- You have been asked to implement Battleships, over the internet - in a browser.
+- TODO - basic game implementation, no storage
+
+__Level 2__
+
+- Your Battleships game is going down a storm (cruise joke!).  But, two of your captions have recently been involved in heated exchanges regarding a recent game between the two.  
+- Whilst in this case the difference of opinion is unlikely to resolved - you have been asked to mitigate against more instances like this by introducing three things to the game:
+  - A way to store all moves, hits, misses etc for each game.
+  - A league table.
+  - And a way to display each game move-by-move.
+- It is hoped this will stop the captions arguing about _"who is the best"_.
+
+__Level 3__
+
+- The competition is __really__ hotting up now & some of the captions have started doing to some very serious training regimes.
+- They've got together (for once!) & have asked you to create a 'training' mode to the game.
+- As you are familiar with Machine Learning & and little Artificial Intelligence you're keen to strut your stuff & willingly agree.  _Personally, I think you're mad to agree to this!_
+
 
 ## Pen test a website
 
 __TODO__ Security team...
 
 ---
-
-## Chess or Battleships in a browser (without AI/ML element - supply past games and step through forward and backwards)
 
 ---
 
