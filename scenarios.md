@@ -1,5 +1,18 @@
 # Scenarios
 
+## Technology Assumptions
+
+It is assumed that the following are available to all students:
+- A statically-typed language (Java, C#, C++ etc)
+- A dynamically-typed language (Python, Ruby, Node etc)
+- An IDE and/or editor suitable for - and compatible with - the above.
+- A web framework - ideally, one dynamically-typed and one statically-typed.
+- A web server or other means of serving static web pages
+- A JavaScript enabled web browser
+- An internet connection
+- A database on which they the student has sufficient permissions to create, manage & drop multiple tables, and load data.
+- A means to visualise the above database and all data stored in it.
+
 ## Scenario 1
 
 __Title__ Design & build a static cruise website from imported data files.
@@ -175,7 +188,7 @@ __Level 3__
 
 - The competition is __really__ hotting up now & some of the captains have started some very serious training regimes.
 - They've got together (for once!) & have asked you to create a 'training' mode to the game.
-- As you are familiar with Machine Learning & and little Artificial Intelligence you're keen to strut your stuff & willingly agree.  _Personally, I think you're mad to agree to this!_
+- As you are familiar with Machine Learning & and little Artificial Intelligence you're keen to strut your stuff & willingly agree.  _Personally, I think you're crazy!_
 
 
 ## Pen test a website
