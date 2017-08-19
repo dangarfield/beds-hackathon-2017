@@ -148,20 +148,19 @@ __Title__ Battleships in a browser.
 
 __Description__
 
-Being the caption of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also time for a little rest & relaxation.
+Being the captain of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also time for a little rest & relaxation.
 
 At these times all our captains choose a nice game of... what else - Battleships (https://en.wikipedia.org/wiki/Battleship_(game))!
 
-These games are highly competitive & there is a captains league table.  The winner each year gets to keep the _Admirals Cup_ in their cabin.
+These games are highly competitive & there is even a captains table showing games won & lost.  The overall winner each year gets to keep the _Admirals Cup_ in their cabin.
 
-Games are currently played by radio - this is inefficient as it requires both players to be tied to the radio set for the duration of the game.  It's also been alluded to that some games have been so long - & so heated - that some essential information could not get through due the radio being used for this 'other' purpose!
+However, games are currently played by radio - this is inefficient as it requires both players to be tied to the radio set for the duration of the game.  It's also been alluded to that some games have been so long - & so heated - that some essential information could not get through due the radio being used for this 'other' purpose!
 
 __Level 1__
 
 - TUI values it's captains highly - but it values it's customers much higher.  The use of the radio is unacceptable for playing games, but we do need a way for our captains to relax, chill out & kickback with a nice game of Battleships.
-- All ships have internet connections.
-- You have been asked to implement Battleships, over the internet - in a browser.
-- TODO - basic game implementation, no storage
+- All ships have internet connections so you've have been asked to implement Battleships, over the internet - in a browser.
+- For now, assume that each player can set their ships up & by clicking on a specific square - send a message to the other player (of course they'll need to re-fresh each move) & indicate a hit or miss.  Showing hits & misses on a per square basis within the grid to both players.  But hiding each others ships of course!
 
 __Level 2__
 
