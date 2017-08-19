@@ -150,31 +150,31 @@ __Description__
 
 Being the caption of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also time for a little rest & relaxation.
 
-At these times all our captions choose a nice game of... What else - Battleships (https://en.wikipedia.org/wiki/Battleship_(game))!
+At these times all our captains choose a nice game of... what else - Battleships (https://en.wikipedia.org/wiki/Battleship_(game))!
 
-These games are highly competitive & there is a captions league table.  The winner each year gets keep the special Admirals Cup in their cabin.
+These games are highly competitive & there is a captains league table.  The winner each year gets to keep the _Admirals Cup_ in their cabin.
 
-Games currently are played by radio - this is inefficient as it requires both players to be tied to the radio set for the duration of the game.  It's also been alluded to that some games have been so long - & so heated - that some essential information could not get through due the radio being used for this 'other' purpose!
+Games are currently played by radio - this is inefficient as it requires both players to be tied to the radio set for the duration of the game.  It's also been alluded to that some games have been so long - & so heated - that some essential information could not get through due the radio being used for this 'other' purpose!
 
 __Level 1__
 
-- TUI values it's captions highly - but it values it's customers more so.  The use of the radio is becoming unacceptable for playing games over, but you do need a way for your captions to relax, chill out & kickback with a nice game of Battleships.
+- TUI values it's captains highly - but it values it's customers much higher.  The use of the radio is unacceptable for playing games, but we do need a way for our captains to relax, chill out & kickback with a nice game of Battleships.
 - All ships have internet connections.
 - You have been asked to implement Battleships, over the internet - in a browser.
 - TODO - basic game implementation, no storage
 
 __Level 2__
 
-- Your Battleships game is going down a storm (cruise joke!).  But, two of your captions have recently been involved in heated exchanges regarding a recent game between the two.  
+- Your Battleships game is going down a storm (cruise joke!).  But, two of your captains have recently been involved in heated exchanges regarding a recent game between the two.  
 - Whilst in this case the difference of opinion is unlikely to resolved - you have been asked to mitigate against more instances like this by introducing three things to the game:
   - A way to store all moves, hits, misses etc for each game.
-  - A league table.
+  - An on-line league table - automatically created from the actual game results.
   - And a way to display each game move-by-move.
-- It is hoped this will stop the captions arguing about _"who is the best"_.
+- It is hoped this will stop the captains arguing about _"who is the best"_.
 
 __Level 3__
 
-- The competition is __really__ hotting up now & some of the captions have started doing to some very serious training regimes.
+- The competition is __really__ hotting up now & some of the captains have started some very serious training regimes.
 - They've got together (for once!) & have asked you to create a 'training' mode to the game.
 - As you are familiar with Machine Learning & and little Artificial Intelligence you're keen to strut your stuff & willingly agree.  _Personally, I think you're mad to agree to this!_
 
