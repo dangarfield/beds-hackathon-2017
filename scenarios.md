@@ -1,6 +1,16 @@
 # Scenarios
 
 
+- [Scenario 1 - A static website from imported data files.](#scenario-1)
+- [Scenario 2 - Onboard excursion booking system.](#scenario-2)
+- [Scenario 3 - "What's the weather like?"](#scenario-3)
+- [Scenario 4 - "What do you mean - some of our customers are missing...?"](#scenario-4)
+- [Scenario 5 - Battleships!](#scenario-5)
+- [Scenario 6 - "Whoops! I did it again."](#scenario-6)
+- [Scenario 7 - Pen test a website](#scenario-7)
+- [Scenario 8 - Simulator (big data maybe?)](#scenario-8)
+
+
 ## Technology Assumptions
 
 It is assumed that the following are available to all students:
@@ -15,7 +25,7 @@ It is assumed that the following are available to all students:
 - A means to view the above database and all data stored in it.
 
 
-## Scenario 1
+## <a name="scenario-1"></a>Scenario 1
 
 __Title__ A static website from imported data files.
 
@@ -41,7 +51,7 @@ __Level 3__
 - Design & build an index.html page for your site.  Include suitable navigation to enable the customer to find & display every cruise within the site.  Like all the other pages - this needs to be programatically built.
 
 
-## Scenario 2
+## <a name="scenario-2"></a>Scenario 2
 
 __Title__ Onboard excursion booking system.
 
@@ -81,7 +91,7 @@ __Level 3__
   - There is no limit to the number of coaches that can be added in this way.  But, clearly there is a limit to the total number of customers on the cruise.  As the cruise director John Luke-Pickard says - "If all customers on cruise want to go on a particular excursion - make it so!"
 
 
-## Scenario 3
+## <a name="scenario-3"></a>Scenario 3
 
 __Title__ "What's the weather like?"
 
@@ -132,7 +142,7 @@ __Level 3__
 - Using the supplied JavaScript SVG map library (https://www.amcharts.com/javascript-maps) - display all ports-of-call for a particular cruise & the current weather (as above) at each port.  You might find this  (https://codepen.io/team/amcharts/pen/bee2e2e100518d8368dba1165364ccfc) & some of the samples in the supplied zip file helpful.
 
 
-## Scenario 4
+## <a name="scenario-4"></a>Scenario 4
 
 __Title__ "What do you mean - some of our customers are missing...?"
 
@@ -162,9 +172,9 @@ __Level 3__
 - Convert your logging system to use these RFID chips.  You'll need to keep the old 'manual' entry system tough, just in case!
 
 
-## Scenario 5
+## <a name="scenario-5"></a>Scenario 5
 
-__Title__ Battleships.
+__Title__ Battleships!
 
 __Description__
 
@@ -198,7 +208,7 @@ __Level 3__
 - You are keen to strut your stuff & willingly agree.  _Personally, I think you're crazy!_
 
 
-## Scenario 6
+## <a name="scenario-6"></a>Scenario 6
 
 __Title__ "Whoops! I did it again."
 
@@ -225,21 +235,19 @@ __Level 3__
 - They'd like you to give them a program that will automatically suggest the best additional port from the given data.  This means finding all available ports across the entire itinerary that they do not currently stop at & finding the shortest path between the actual itinerary (which you cannot alter) with each additional port.  Then use this to suggest the most appropriate additional port to add.
 
 
+## <a name="scenario-7"></a>Scenario 7
 
-
-
-## Pen test a website
+__Title__ Pen test a website
 
 __TODO__ Security team...
 
 
-## Simulator (big data maybe?)
+## <a name="scenario-8"></a>Scenario 8
+
+__Title__ Simulator (big data maybe?)
 
 __TODO__ Dan...?
 
 
 
 ## Basic e-comm site with cart & checkout
-
-
-## Can we get real-time flight data?  If so, show all TUI flights on map - data etc
