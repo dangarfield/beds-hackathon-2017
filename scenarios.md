@@ -4,10 +4,10 @@
 - [Technology Assumptions](#scenario-assumptions)
 - [Scenario 1 - A static website from imported data files.](#scenario-1)
 - [Scenario 2 - Onboard excursion booking system.](#scenario-2)
-- [Scenario 3 - "What's the weather like?"](#scenario-3)
-- [Scenario 4 - "What do you mean - some of our customers are missing...?"](#scenario-4)
+- [Scenario 3 - What's the weather like?](#scenario-3)
+- [Scenario 4 - What do you mean - some of our customers are missing...?](#scenario-4)
 - [Scenario 5 - Battleships!](#scenario-5)
-- [Scenario 6 - "Whoops! I did it again."](#scenario-6)
+- [Scenario 6 - Whoops! I did it again.](#scenario-6)
 - [Scenario 7 - Pen test a website](#scenario-7)
 - [Scenario 8 - Simulator (big data maybe?)](#scenario-8)
 
@@ -90,7 +90,7 @@ __Level 3__
 [Top](#top)
 
 
-## <a name="scenario-3"></a>Scenario 3 - "What's the weather like?"
+## <a name="scenario-3"></a>Scenario 3 - What's the weather like?
 
 On-board ship - keeping up-to-date with changes in the weather is vital.  On-board a cruise ship, this is no different - except now there are many more interested parties - our customers!
 
@@ -139,7 +139,7 @@ __Level 3__
 [Top](#top)
 
 
-## <a name="scenario-4"></a>Scenario 4 - "What do you mean - some of our customers are missing...?"
+## <a name="scenario-4"></a>Scenario 4 - What do you mean - some of our customers are missing...?
 
 The nature of a cruise is that every so often - daily sometimes - the ship will dock at a particular port for long periods of time.  This affords the opportunity for the customers to disembark & sample some of the local food, drink, entertainment, customs & popular sites in the vicinity.
 
@@ -201,7 +201,7 @@ __Level 3__
 [Top](#top)
 
 
-## <a name="scenario-6"></a>Scenario 6 - "Whoops! I did it again."
+## <a name="scenario-6"></a>Scenario 6 - Whoops! I did it again.
 
 The cruise team have a new system.  Unfortunately, there is a slight flaw in it.  Under certain circumstances (Thursday's usually) all of the sequencing information for all cruise itineraries is wiped out.  Just the sequences - nothing else.
 
