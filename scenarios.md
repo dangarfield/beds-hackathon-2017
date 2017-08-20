@@ -14,8 +14,6 @@
 
 ## <a name="scenario-assumptions"></a>Technology Assumptions
 
-[Top](#top)
-
 It is assumed that the following are available to all students:
 - A statically-typed language
 - A dynamically-typed language
@@ -27,14 +25,10 @@ It is assumed that the following are available to all students:
 - A database on which the student has sufficient permissions to create, manage & drop tables, and load data.
 - A means to view the above database and all data stored in it.
 
-
-## <a name="scenario-1"></a>Scenario 1
-
 [Top](#top)
 
-__Title__ A static website from imported data files.
 
-__Description__
+## <a name="scenario-1"></a>Scenario 1 - A static website from imported data files.
 
 TUI is a global holiday brand that offers: beach, city, ski & cruise holidays and much more besides.  Recently, a number of advancements have been made to the content stored about cruises, itineraries & cruise Ships.  Your team has been assigned the task of re-designing the current cruise website from the ground up, to include this enhanced content.
 
@@ -55,14 +49,10 @@ __Level 3__
 
 - Design & build an index.html page for your site.  Include suitable navigation to enable the customer to find & display every cruise within the site.  Like all the other pages - this needs to be programatically built.
 
-
-## <a name="scenario-2"></a>Scenario 2
-
 [Top](#top)
 
-__Title__ Onboard excursion booking system.
 
-__Description__
+## <a name="scenario-2"></a>Scenario 2 - Onboard excursion booking system.
 
 One of the main reasons for customers choosing a cruise is the potential to see many different countries, cities & places of interest in a short period of time.
 
@@ -97,14 +87,10 @@ __Level 3__
   - Once you have make available an additional coach - even if only one seat is used it is not removed unless the above rule is true.  Once you have made a commitment to your customers - you must uphold it.
   - There is no limit to the number of coaches that can be added in this way.  But, clearly there is a limit to the total number of customers on the cruise.  As the cruise director John Luke-Pickard says - "If all customers on cruise want to go on a particular excursion - make it so!"
 
-
-## <a name="scenario-3"></a>Scenario 3
-
 [Top](#top)
 
-__Title__ "What's the weather like?"
 
-__Description__
+## <a name="scenario-3"></a>Scenario 3 - "What's the weather like?"
 
 On-board ship - keeping up-to-date with changes in the weather is vital.  On-board a cruise ship, this is no different - except now there are many more interested parties - our customers!
 
@@ -150,14 +136,10 @@ __Level 3__
 
 - Using the supplied JavaScript SVG map library (https://www.amcharts.com/javascript-maps) - display all ports-of-call for a particular cruise & the current weather (as above) at each port.  You might find this  (https://codepen.io/team/amcharts/pen/bee2e2e100518d8368dba1165364ccfc) & some of the samples in the supplied zip file helpful.
 
-
-## <a name="scenario-4"></a>Scenario 4
-
 [Top](#top)
 
-__Title__ "What do you mean - some of our customers are missing...?"
 
-__Description__
+## <a name="scenario-4"></a>Scenario 4 - "What do you mean - some of our customers are missing...?"
 
 The nature of a cruise is that every so often - daily sometimes - the ship will dock at a particular port for long periods of time.  This affords the opportunity for the customers to disembark & sample some of the local food, drink, entertainment, customs & popular sites in the vicinity.
 
@@ -182,14 +164,10 @@ __Level 3__
 - You've got a number of RFID chips - your plan is to give these to the customers at the start of the cruise - get them to wear them during the entire cruise - then use them to automatically get the logging system to register if they are on-board or not by scanning the chip as they disembark & return.
 - Convert your logging system to use these RFID chips.  You'll need to keep the old 'manual' entry system tough, just in case!
 
-
-## <a name="scenario-5"></a>Scenario 5
-
 [Top](#top)
 
-__Title__ Battleships!
 
-__Description__
+## <a name="scenario-5"></a>Scenario 5 - Battleships!
 
 Being the captain of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also time for a little rest & relaxation.
 
@@ -220,14 +198,10 @@ __Level 3__
 - They've got together (for once!) & have asked you to create a 'training' mode in the game.
 - You are keen to strut your stuff & willingly agree.  _Personally, I think you're crazy!_
 
-
-## <a name="scenario-6"></a>Scenario 6
-
 [Top](#top)
 
-__Title__ "Whoops! I did it again."
 
-__Description__
+## <a name="scenario-6"></a>Scenario 6 - "Whoops! I did it again."
 
 The cruise team have a new system.  Unfortunately, there is a slight flaw in it.  Under certain circumstances (Thursday's usually) all of the sequencing information for all cruise itineraries is wiped out.  Just the sequences - nothing else.
 
@@ -249,20 +223,18 @@ __Level 3__
 - The cruise team love your program & have had an idea (_this is never good_).  They'd like to add one more port-of-call per itinerary.  
 - They'd like you to give them a program that will automatically suggest the best additional port from the given data.  This means finding all available ports across the entire itinerary that they do not currently stop at & finding the shortest path between the actual itinerary (which you cannot alter) with each additional port.  Then use this to suggest the most appropriate additional port to add.
 
-
-## <a name="scenario-7"></a>Scenario 7
-
 [Top](#top)
 
-__Title__ Pen test a website
+
+## <a name="scenario-7"></a>Scenario 7 - Pen test a website
 
 __TODO__ Security team...
 
-
-## <a name="scenario-8"></a>Scenario 8
-
 [Top](#top)
 
-__Title__ Simulator (big data maybe?)
+
+## <a name="scenario-8"></a>Scenario 8 - Simulator (big data maybe?)
 
 __TODO__ Dan...?
+
+[Top](#top)
