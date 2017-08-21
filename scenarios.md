@@ -19,7 +19,7 @@ It is assumed that the following are available to all students:
 - A dynamically-typed language
 - An IDE and/or editor suitable for - and compatible with - the above.
 - A web framework - ideally, one dynamically-typed and one statically-typed.
-- A web server or other means of serving static web pages
+- A web server (or other means of serving static & dynamic web pages)
 - A JavaScript enabled web browser
 - An internet connection
 - A database on which the student has sufficient permissions to create, manage & drop tables, and load data.
@@ -30,7 +30,7 @@ It is assumed that the following are available to all students:
 
 ## <a name="scenario-1"></a>Scenario 1 - A static website from imported data files.
 
-TUI is a global holiday brand that offers: beach, city, ski & cruise holidays and much more besides.  Recently, a number of advancements have been made to the content stored about cruises, itineraries & cruise Ships.  Your team has been assigned the task of re-designing the current cruise website from the ground up, to include this enhanced content.
+TUI is a global holiday brand that offers: beach, city, ski, cruise holidays and much more besides.  Recently, a number of advancements have been made to the content stored about cruises, itineraries & cruise Ships.  Your team has been assigned the task of re-designing the current cruise website - from the ground up - to include this enhanced content.
 
 Cruise is a premium product primarily aimed at affluent customers, couples, parents of grown up children & those over 50.  The display of cruise content is expected to reflect the quality of the product & the target market.  
 
@@ -82,10 +82,9 @@ __Level 3__
 - Optimise your 'wait list' by maximising the use of available seats at all times.  
 - Change your data structures & queuing mechanism to support your algorithm.
 - You have also been informed more coaches can be made available.  The cruise team have given the logic for this as follows...
-  - If the 'wait list' requested seats total is greater than 50% of the number available on the coach (32 in this case, so more than 16) - make another coach available, increment the total number of seats as appropriate & and proceed as normal.
+  - If the 'wait list' requested seats total is greater than 50% of the total number available on a coach (32 in this case, so more than 16) - make another coach available, increment the total number of seats as appropriate & and proceed as normal.
   - In the case of booking cancellations - if the number of required seats goes below the need for the additional coach or coaches.  Remove the appropriate number of coaches - except one.  All excursions have a minimum of one coach.
-  - Once you have make available an additional coach - even if only one seat is used it is not removed unless the above rule is true.  Once you have made a commitment to your customers - you must uphold it.
-  - There is no limit to the number of coaches that can be added in this way.  But, clearly there is a limit to the total number of customers on the cruise.  As the cruise director John Luke-Pickard says - "If all customers on cruise want to go on a particular excursion - make it so!"
+  - There is no limit to the number of coaches that can be added in this way.  But, clearly there is a limit to the total number of customers on the cruise.  As the cruise director Jean-Luc Pickard says - "If all customers on cruise want to go on a particular excursion - make it so!"
 
 [Top](#top)
 
@@ -155,6 +154,7 @@ __Level 1__
 __Level 2__
 
 - The captain of the Enterprise - a bright spark by the name of James T Kirk - has asked for a status board.  This should simply show the total number of on-board & disembarked customers in real-time.  This will help him plan departure times better.
+- For disembarked customers - Capt Kirk would like a list of their names & cabin numbers - alphabetically ordered.
 - How you display this data is up to you - Capt Kirk doesn't much care for this _"technology stuff"_.  But it does need to be clear, up-to-date & accurate.
 
 __Level 3__
@@ -163,13 +163,14 @@ __Level 3__
 - You've heard about a new technology that you feel might help with your project & are keen to give it a try.
 - You've got a number of RFID chips - your plan is to give these to the customers at the start of the cruise - get them to wear them during the entire cruise - then use them to automatically get the logging system to register if they are on-board or not by scanning the chip as they disembark & return.
 - Convert your logging system to use these RFID chips.  You'll need to keep the old 'manual' entry system tough, just in case!
+- Your status board is unchanged, but the list of disembarked customers should now include the id from the RFID chip.
 
 [Top](#top)
 
 
 ## <a name="scenario-5"></a>Scenario 5 - Battleships!
 
-Being the captain of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also time for a little rest & relaxation.
+Being the captain of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also some time for a little rest & relaxation.
 
 At these times all our captains choose a nice game of... what else - Battleships (https://en.wikipedia.org/wiki/Battleship_(game))!
 
@@ -180,7 +181,7 @@ However, games are currently played by radio - this is inefficient as it require
 __Level 1__
 
 - TUI values it's captains highly - but it values it's customers much higher.  The use of the radio is unacceptable for playing games, but we do need a way for our captains to relax, chill out & kickback with a nice game of Battleships.
-- You've have been asked to implement Battleships.  The choice of how the players communicate is up to you, but it must be via your program - NOT the radio!  All ships have direct connections to all other ships & of course - an internet connection.
+- You have been asked to implement Battleships.  The choice of how the players communicate is up to you, but it must be via your program - NOT the radio!  All ships have direct connections to all other ships & of course - an internet connection.
 - For now, assume that each player can set their ships up on specific squares - send a message to the other player & the system indicates a hit or miss in response.  The state of the game is kept up-to-date & displayed to both players at all times. In particular, you should show hits & misses on a per square basis within the grid to both players, whilst hiding each others ships of course!
 
 __Level 2__
@@ -188,8 +189,8 @@ __Level 2__
 - Your Battleship game is going down a storm!  But, two of your captains have recently been involved in heated exchanges regarding a recent game between them.  
 - Whilst in this case the difference of opinion is unlikely to resolved - you have been asked to mitigate against more instances like this by introducing three things to the game:
   - A way to store all moves, hits, misses etc for each game.
-  - An league table that is automatically created from the actual game results.
-  - And a way to display each game move-by-move.
+  - A league table that is automatically created from the actual game results.
+  - A way to display each game move-by-move.
 - It is hoped this will stop the captains arguing.
 
 __Level 3__
@@ -215,8 +216,8 @@ __Level 1__
 __Level 2__
 
 - Oh no!  Guess what?  You know that distance information we used to get?  We'll it's getting wiped out too (Monday's this time).  We've still got the latitude & longitude though.
-- Update your first program - to calculate the distance between each port & the next then add that back into the data.  At which point the rest of the program should continue working as normal.
-- Problem is - how can you figure out the relevant distance between each latitude/longitude point?  _Hint: the 'haversine' formula might help you here_
+- Update your first program - to calculate the distance between each port & all other ports.  Calculate the shortest route as before & add both the distance & sequence back into the data.
+- Problem is - how can you figure out the relevant distance between each latitude/longitude point?  For this purpose you can assume that a 'as the crow flies' distance is sufficient _Hint: the 'haversine' formula might help you here_.
 
 __Level 3__
 
