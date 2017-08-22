@@ -2,6 +2,7 @@
 
 
 - [Technology Assumptions](#scenario-assumptions)
+- [Levels...?](#levels)
 - [Scenario 1 - A static website from imported data files.](#scenario-1)
 - [Scenario 2 - Onboard excursion booking system.](#scenario-2)
 - [Scenario 3 - What's the weather like?](#scenario-3)
@@ -24,6 +25,15 @@ It is assumed that the following are available to all students:
 - An internet connection
 - A database on which the student has sufficient permissions to create, manage & drop tables, and load data.
 - A means to view the above database and all data stored in it.
+
+[Top](#top)
+
+
+## <a name="levels"></a>Levels...?
+
+You'll notice that throughout there are 3 levels per scenario.  This isn't necessarily an indication of difficulty - more a means of giving you a "next logical step" from the previous level.  A way of building an application.  In agile development they might be called __sprints__.
+
+Whilst it is expected that you do level 1 before tackling level 2, and level 2 before level 3, do not feel that you __must__ complete all 3 levels in a particular scenario.  If you want to stop at level 1 or 2 that's absolutely fine.
 
 [Top](#top)
 
@@ -97,25 +107,51 @@ At TUI we always strive to give our customers the best holiday experience we can
 
 __Level 1__
 
-- Using the OpenWeatherMap API (https://openweathermap.org/api) & the supplied cruise/itinerary data - obtain & display the current weather (weather.main & weather.description from the API response) for each port-of-call (by latitude & longitude) in the itinerary.
+- Using the OpenWeatherMap API [https://openweathermap.org/api](https://openweathermap.org/api) & the supplied cruise/itinerary data - obtain & display the current weather (weather.main & weather.description from the API response) for each port-of-call (by latitude & longitude) in the itinerary.
 
 Example API call...
 
-```
-http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1
-```
+[http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1](http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1)
 
 Example API response...
 ```javascript
 {
-  "coord": { "lon": 139.01, "lat": 35.02 },
-  "weather": [ { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" } ],
+  "coord": {
+    "lon": 139.01,
+    "lat": 35.02
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
   "base": "stations",
-  "main": { "temp": 285.514, "pressure": 1013.75, "humidity": 100, "temp_min": 285.514, "temp_max": 285.514, "sea_level": 1023.22, "grnd_level": 1013.75 },
-  "wind": { "speed": 5.52, "deg": 311 },
-  "clouds": { "all": 0 },
+  "main": {
+    "temp": 285.514,
+    "pressure": 1013.75,
+    "humidity": 100,
+    "temp_min": 285.514,
+    "temp_max": 285.514,
+    "sea_level": 1023.22,
+    "grnd_level": 1013.75
+  },
+  "wind": {
+    "speed": 5.52,
+    "deg": 311
+  },
+  "clouds": {
+    "all": 0
+  },
   "dt": 1485792967,
-  "sys": { "message": 0.0025, "country": "JP", "sunrise": 1485726240, "sunset": 1485763863 },
+  "sys": {
+    "message": 0.0025,
+    "country": "JP",
+    "sunrise": 1485726240,
+    "sunset": 1485763863
+  },
   "id": 1907296,
   "name": "Tawarano",
   "cod": 200
@@ -133,7 +169,7 @@ __Level 2__
 
 __Level 3__
 
-- Using the supplied JavaScript SVG map library (https://www.amcharts.com/javascript-maps) - display all ports-of-call for a particular cruise & the current weather (as above) at each port.  You might find this  (https://codepen.io/team/amcharts/pen/bee2e2e100518d8368dba1165364ccfc) & some of the samples in the supplied zip file helpful.
+- Using the supplied JavaScript SVG map library [https://www.amcharts.com/javascript-maps](https://www.amcharts.com/javascript-maps) - display all ports-of-call for a particular cruise & the current weather (as above) at each port.  You might find this  [https://codepen.io/team/amcharts/pen/bee2e2e100518d8368dba1165364ccfc](https://codepen.io/team/amcharts/pen/bee2e2e100518d8368dba1165364ccfc) & some of the samples in the supplied zip file helpful.
 
 [Top](#top)
 
@@ -172,7 +208,7 @@ __Level 3__
 
 Being the captain of a cruise ship can (at times) be very stressful.  There is much to do, plan & manage.  But, there is also some time for a little rest & relaxation.
 
-At these times all our captains choose a nice game of... what else - Battleships (https://en.wikipedia.org/wiki/Battleship_(game))!
+At these times all our captains choose a nice game of... what else - Battleships [https://en.wikipedia.org/wiki/Battleship_(game)](https://en.wikipedia.org/wiki/Battleship_(game))!
 
 These games are highly competitive & there is even a captains table showing games won & lost.  The overall winner each year gets to keep the - much sought after - _Admirals Cup_ in their cabin.
 
@@ -182,7 +218,7 @@ __Level 1__
 
 - TUI values it's captains highly - but it values it's customers much higher.  The use of the radio is unacceptable for playing games, but we do need a way for our captains to relax, chill out & kickback with a nice game of Battleships.
 - You have been asked to implement Battleships.  The choice of how the players communicate is up to you, but it must be via your program - NOT the radio!  All ships have direct connections to all other ships & of course - an internet connection.
-- For now, assume that each player can set their ships up on specific squares - send a message to the other player & the system indicates a hit or miss in response.  The state of the game is kept up-to-date & displayed to both players at all times. In particular, you should show hits & misses on a per square basis within the grid to both players, whilst hiding each others ships of course!
+- For now, assume that each player can set their ships up on specific squares - send a message to the other player & the system indicates a hit or miss in response.  The state of the game is kept up-to-date & displayed to both players at all times - but is not stored (for example, in a database)! In particular, you should show hits & misses on a per square basis within the grid to both players, whilst hiding each others ships of course!
 
 __Level 2__
 
@@ -237,5 +273,24 @@ __TODO__ Security team...
 ## <a name="scenario-8"></a>Scenario 8 - Simulator (big data maybe?)
 
 __TODO__ Dan...?
+
+[Top](#top)
+
+
+## <a name="scenario-9"></a>Scenario 9 - Information Retrieval
+
+Cruise search
+
+__Level 1__
+
+- Basic search.  Allow customer to find the following...
+
+__Level 2__
+
+- Add facets.  Use in conjunction with above.
+
+__Level 3__
+
+- Implement 'and' & 'or' for free text search.
 
 [Top](#top)
