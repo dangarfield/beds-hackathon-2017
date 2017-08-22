@@ -39,7 +39,7 @@ Whilst it is expected that you do level 1 before tackling level 2, and level 2 b
 
 ## <a name="cruise"></a>What is a Cruise?
 
-Cruise like many areas of business has a large collection of terms, phrases & a language all of its own.  
+Cruise - like many areas of business - has a large collection of terms & phrases.  A language all of its own in fact!  
 
 Throughout the scenarios that follow & during the day - you will be exposed to a lot of this language.  To help you get fully up to speed - TUI will run a cruise familiarisation event prior to the hackaton.  Please don't miss it!
 
@@ -69,7 +69,7 @@ __Level 3__
 
 __Resources__
 
-Data files (CSV) & starter HTML/CSS templates will be available as part of the resources bundle for this scenario.
+Data files (CSV) & starter HTML/CSS files/templates will be available as part of the resources bundle for this scenario.
 
 [Top](#top)
 
