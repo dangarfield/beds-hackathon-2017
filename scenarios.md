@@ -3,14 +3,13 @@
 
 - [Technology Assumptions](#scenario-assumptions)
 - [Levels...?](#levels)
+- [What is a Cruise?](#cruise)
 - [Scenario 1 - A static website from imported data files.](#scenario-1)
 - [Scenario 2 - Onboard excursion booking system.](#scenario-2)
 - [Scenario 3 - What's the weather like?](#scenario-3)
 - [Scenario 4 - What do you mean - some of our customers are missing...?](#scenario-4)
 - [Scenario 5 - Battleships!](#scenario-5)
 - [Scenario 6 - Whoops! I did it again.](#scenario-6)
-- [Scenario 7 - Pen test a website](#scenario-7)
-- [Scenario 8 - Simulator (big data maybe?)](#scenario-8)
 
 
 ## <a name="scenario-assumptions"></a>Technology Assumptions
@@ -38,6 +37,15 @@ Whilst it is expected that you do level 1 before tackling level 2, and level 2 b
 [Top](#top)
 
 
+## <a name="cruise"></a>What is a Cruise?
+
+Cruise like many areas of business has a large collection of terms, phrases & a language all of its own.  
+
+Throughout the scenarios that follow & during the day - you will be exposed to a lot of this language.  To help you get fully up to speed - TUI will run a cruise familiarisation event prior to the hackaton.  Please don't miss it!
+
+[Top](#top)
+
+
 ## <a name="scenario-1"></a>Scenario 1 - A static website from imported data files.
 
 TUI is a global holiday brand that offers: beach, city, ski, cruise holidays and much more besides.  Recently, a number of advancements have been made to the content stored about cruises, itineraries & cruise Ships.  Your team has been assigned the task of re-designing the current cruise website - from the ground up - to include this enhanced content.
@@ -58,6 +66,10 @@ __Level 2__
 __Level 3__
 
 - Design & build an index.html page for your site.  Include suitable navigation to enable the customer to find & display every cruise within the site.  Like all the other pages - this needs to be programatically built.
+
+__Resources__
+
+Data files (CSV) & starter HTML/CSS templates will be available as part of the resources bundle for this scenario.
 
 [Top](#top)
 
@@ -95,6 +107,10 @@ __Level 3__
   - If the 'wait list' requested seats total is greater than 50% of the total number available on a coach (32 in this case, so more than 16) - make another coach available, increment the total number of seats as appropriate & and proceed as normal.
   - In the case of booking cancellations - if the number of required seats goes below the need for the additional coach or coaches.  Remove the appropriate number of coaches - except one.  All excursions have a minimum of one coach.
   - There is no limit to the number of coaches that can be added in this way.  But, clearly there is a limit to the total number of customers on the cruise.  As the cruise director Jean-Luc Pickard says - "If all customers on cruise want to go on a particular excursion - make it so!"
+
+__Resources__
+
+Data files (CSV) will be available as part of the resources bundle for this scenario.
 
 [Top](#top)
 
@@ -170,6 +186,11 @@ __Level 2__
 __Level 3__
 
 - Using the supplied JavaScript SVG map library [https://www.amcharts.com/javascript-maps](https://www.amcharts.com/javascript-maps) - display all ports-of-call for a particular cruise & the current weather (as above) at each port.  You might find this  [https://codepen.io/team/amcharts/pen/bee2e2e100518d8368dba1165364ccfc](https://codepen.io/team/amcharts/pen/bee2e2e100518d8368dba1165364ccfc) & some of the samples in the supplied zip file helpful.
+- Create a mobile app for our customers to display this data.
+
+__Resources__
+
+Data files (CSV), api keys for OpenWeatherMap & a number of tools from AMCharts will be available as part of the resources bundle for this scenario.
 
 [Top](#top)
 
@@ -197,9 +218,9 @@ __Level 3__
 
 - Everything is going well with the status board and Capt Kirk is very happy.  However, the customers are starting to complain about the amount of time it's taking the crew to get them off of the ship & back on again.
 - You've heard about a new technology that you feel might help with your project & are keen to give it a try.
-- You've got a number of RFID chips - your plan is to give these to the customers at the start of the cruise - get them to wear them during the entire cruise - then use them to automatically get the logging system to register if they are on-board or not by scanning the chip as they disembark & return.
-- Convert your logging system to use these RFID chips.  You'll need to keep the old 'manual' entry system tough, just in case!
-- Your status board is unchanged, but the list of disembarked customers should now include the id from the RFID chip.
+- You've got a number of RFID/NFC chips - your plan is to give these to the customers at the start of the cruise - get them to wear them during the entire cruise - then use them to automatically get the logging system to register if they are on-board or not by scanning the chip as they disembark & return.
+- Convert your logging system to use these RFID/NFC chips.  You'll need to keep the old 'manual' entry system tough, just in case!
+- Your status board is unchanged, but the list of disembarked customers should now include the id from the RFID/NFC chip.
 
 [Top](#top)
 
@@ -260,37 +281,8 @@ __Level 3__
 - The cruise team love your program & have had an idea (_this is never good_).  They'd like to add one more port-of-call per itinerary.  
 - They'd like you to give them a program that will automatically suggest the best additional port from the given data.  This means finding all available ports across the entire itinerary that they do not currently stop at & finding the shortest path between the actual itinerary (which you cannot alter) with each additional port.  Then use this to suggest the most appropriate additional port to add.
 
-[Top](#top)
+__Resources__
 
-
-## <a name="scenario-7"></a>Scenario 7 - Pen test a website
-
-__TODO__ Security team...
-
-[Top](#top)
-
-
-## <a name="scenario-8"></a>Scenario 8 - Simulator (big data maybe?)
-
-__TODO__ Dan...?
-
-[Top](#top)
-
-
-## <a name="scenario-9"></a>Scenario 9 - Information Retrieval
-
-Cruise search
-
-__Level 1__
-
-- Basic search.  Allow customer to find the following...
-
-__Level 2__
-
-- Add facets.  Use in conjunction with above.
-
-__Level 3__
-
-- Implement 'and' & 'or' for free text search.
+Data files (CSV) will be available as part of the resources bundle for this scenario.
 
 [Top](#top)
