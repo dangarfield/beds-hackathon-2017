@@ -10,6 +10,7 @@
 - [Scenario 4 - What do you mean - some of our customers are missing...?](#scenario-4)
 - [Scenario 5 - Battleships!](#scenario-5)
 - [Scenario 6 - Whoops! I did it again.](#scenario-6)
+- [Scenario 7 - The why's and where-fore's](#scenario-7)
 
 
 ## <a name="scenario-assumptions"></a>Technology Assumptions
@@ -284,5 +285,38 @@ __Level 3__
 __Resources__
 
 Data files (CSV) will be available as part of the resources bundle for this scenario.
+
+[Top](#top)
+
+
+## <a name="scenario-7"></a>Scenario 7 - The why's and where-fore's
+
+The new cruise website has attracted a lot of attention recently - it has a lot of new & exciting features and it's generally very well liked - you might almost say it's development was plain-sailing!  However, there has also been some criticism from some customers.  They don't like the drop-downs used for searching.  They argue that a Google-like search experience would be much better.
+
+Not a company that ignores it's customers complaints or requests - TUI have asked a crack team of search specialists (that’s you) to revamp the cruise website search.  Your brief is simple - as the cruise director Shipley says “Just make like Google.  There it is.”
+
+__Level 1__
+
+Given the cruise database - provide a basic free-text search function. This should allow customer to find the following…
+
+  * A cruise by name - any part or entire name - upper or lower case.  Return all matching cruises.
+  * A ship by name - any part or entire name - upper or lower case.  Return all matching ships & their cruises.
+  * A cruise area by name - any part or entire name - upper or lower case.  Return all matching cruise areas, all ships that serve those areas, and all cruises by ship.
+
+__Level 2__
+
+After a short while testing your search - cruise director Shipley jumps out of her chair, gives you all a big hug and (rather too loudly) declares “I love it!”  Don’t worry she’s like that.  You wait patiently for the “but”.  “Just one question, where are those things?” director Shipley says.  Ah, there it is - the “but”.  “Things?” you question.  “You know those things that allow me to refine my search.”  “Oh! Facets” you say.  “I do not like people who swear!” directory Shipley retorts.  You explain - slowly.  “Yes, yes - those.  I want those too.  Just add facets and it’ll be perfect.”
+
+Now, you and I both know that a Google-alike search doesn’t have facets. But, you and I also know that there’s no use arguing with cruise director Shipley.  Since you have no concrete examples from director Shipley to go on - you have free reign to add whatever facets you feel make sense given the data structures you have to work with.
+
+__ Level 3__
+
+Cruise director Shipley sinks in her chair as you demo the latest changes to the search.  Just as you reach the end of the demo - she springs out of the chair - vaults over the desk and sobs gently on your shoulder for a few seconds before screaming at the top of her voice “BRILLIANT, FANTASTIC - WONDERFUL.”  Enthusiastic is one word that comes to mind.  You wait patiently for the “but”.  “Why are some of things I’m looking for at the bottom of the list?”  There you go - the “but”.  “Eh!” you query.  “Well, when you were doing the demo - I noticed you searched for ‘mediterranean’ - that’s a cruise name and a cruise area, and cruise area came out on top.  We sell cruises - I want cruises on top.”
+
+You’ve not attempted a complex Google ranking algorithm before - and you don’t feel you should start now!  But, you do need to do something.  After a while of head-scratching and arguing within the team, you settle on a easy fix.  You’ll have a ranking mechanism - yes.  But one that only puts cruises above cruise areas.  And cruises above ship names.  And cruises above destinations.  And cruises above… You get it!  Just put cruises first.  Then rank everything else downwards according to some kind of priority level.  Once that can be changed easily.
+
+__Resources__
+
+Cruise database - as a series of DDL and SQL statements.
 
 [Top](#top)
