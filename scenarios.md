@@ -309,7 +309,7 @@ After a short while testing your search - cruise director Shipley jumps out of h
 
 Now, you and I both know that a Google-alike search doesn’t have facets. But, you and I also know that there’s no use arguing with cruise director Shipley.  Since you have no concrete examples from director Shipley to go on - you have free reign to add whatever facets you feel make sense given the data structures you have to work with.
 
-__ Level 3__
+__Level 3__
 
 Cruise director Shipley sinks in her chair as you demo the latest changes to the search.  Just as you reach the end of the demo - she springs out of the chair - vaults over the desk and sobs gently on your shoulder for a few seconds before screaming at the top of her voice “BRILLIANT, FANTASTIC - WONDERFUL.”  Enthusiastic is one word that comes to mind.  You wait patiently for the “but”.  “Why are some of things I’m looking for at the bottom of the list?”  There you go - the “but”.  “Eh!” you query.  “Well, when you were doing the demo - I noticed you searched for ‘mediterranean’ - that’s a cruise name and a cruise area, and cruise area came out on top.  We sell cruises - I want cruises on top.”
 
