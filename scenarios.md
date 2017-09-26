@@ -61,12 +61,12 @@ __Level 1__
 
 __Level 2__
 
-- Design & build a suitable HTML template to display a cruise, it's itinerary & ship information.
+- Design & build a suitable HTML template to display a cruise, its itinerary & ship information.
 - Programmatically build several HTML pages (one per cruise) using the contents of the database & the above template.  This program should also be capable of being automated.
 
 __Level 3__
 
-- Design & build an index.html page for your site.  Include suitable navigation to enable the customer to find & display every cruise within the site.  Like all the other pages - this needs to be Programmatically built.
+- Design & build an index.html page for your site.  Include suitable navigation to enable the customer to find & display every cruise within the site.  Like all the other pages - this needs to be programmatically built.
 
 __Resources__
 
@@ -94,7 +94,7 @@ __Level 2__
 
 - Your booking system has proven highly effective & very popular.  But, some customers would like to return some seats previously booked.  Implement booking cancellation within the system.
 - You have also been asked to add a 'wait list' for seats on each excursion.  So that when the coach is full a customer can register interest in obtaining one or more seats.  
-- For this purpose - assume there is only one coach with 32 seats per excursion & that the customer initially always accepts & purchases the seats they have requested.  Even though they might cancel their booking later.
+- For this purpose - assume there is only one coach with 32 seats per excursion & that the customer initially always accepts & purchases the seats they have requested even though they might cancel their booking later.
 - Implement the following business logic - choose suitable data structure(s) to support your algorithm:
   - If the incoming request is for less than the number of available seats - allocate seats to the requesting customer.  This must be done in the order that the requests come in.  Assume requests arrive one at a time.
   - If fewer seats are available than the number being requested - put the customer's request 'on hold' until sufficient seats become available.  Do the same for all subsequent requests irrespective of whether the request could have been fulfilled (for example, when the next request is for fewer seats than are currently available).  When seats are handed back (booking cancellation) and sufficient have become available - allocate the seats to the first requesting customer in the order they were originally requested.
@@ -220,7 +220,7 @@ __Level 3__
 - Everything is going well with the status board and Capt. Kirk is very happy.  However, the customers are starting to complain about the amount of time it's taking the crew to get them off the ship & back on again.
 - You've heard about a new technology that you feel might help with your project & are keen to give it a try.
 - You've got several RFID/NFC chips - your plan is to give these to the customers at the start of the cruise - get them to wear them during the entire cruise - then use them to automatically get the logging system to register if they are on-board or not by scanning the chip as they disembark & return.
-- Convert your logging system to use these RFID/NFC chips.  You'll need to keep the old 'manual' entry system tough, just in case!
+- Convert your logging system to use these RFID/NFC chips.  You'll need to keep the old 'manual' entry system though, just in case!
 - Your status board is unchanged, but the list of disembarked customers should now include the id from the RFID/NFC chip.
 
 [Top](#top)
@@ -291,9 +291,9 @@ Data files (CSV) will be available as part of the resources bundle for this scen
 
 ## <a name="scenario-7"></a>Scenario 7 - The why's and where-fore's
 
-The new cruise website has attracted a lot of attention recently - it has a lot of new & exciting features and it's generally very well liked - you might almost say it's development was plain-sailing!  However, there has also been some criticism from some customers.  They don't like the drop-downs used for searching.  They argue that a Google-like search experience would be much better.
+The new cruise website has attracted a lot of attention recently - it has a lot of new & exciting features and it's generally very well liked - you might almost say its development was plain-sailing!  However, there has also been some criticism from some customers.  They don't like the drop-downs used for searching.  They argue that a Google-like search experience would be much better.
 
-Not a company that ignores it's customers complaints or requests - TUI have asked a crack team of search specialists (that’s you) to revamp the cruise website search.  Your brief is simple - as the cruise director Shipley says “Just make like Google.  There it is.”
+Not a company that ignores its customers complaints or requests - TUI have asked a crack team of search specialists (that’s you) to revamp the cruise website search.  Your brief is simple - as the cruise director Shipley says “Just make like Google.  There it is.”
 
 __Level 1__
 
