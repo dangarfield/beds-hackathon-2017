@@ -317,6 +317,6 @@ Youâ€™ve not attempted a complex Google ranking algorithm before - and you donâ€
 
 __Resources__
 
-Cruise database - as a series of DDL and SQL statements.
+Data files (CSV) will be available as part of the resources bundle for this scenario.
 
 [Top](#top)
