@@ -2,11 +2,11 @@
 
 ## Resources...
 
-[Scenarios 1, 2, 3, 6 & 7 - CSV Data Files](csv-data-files.zip)
+[Scenarios 1, 2, 3, 6 & 7 - CSV Data Files](gclikkec/beds-hackathon-2017/resources/csv-data-files.zip)
 
-[Scenario 3 - AmCharts Javascript Map Resources](ammap_3.21.5.free.zip)
+[Scenario 3 - AmCharts Javascript Map Resources](gclikkec/beds-hackathon-2017/resources/ammap_3.21.5.free.zip)
 
-[Scenario 6 - Additional CSV Data Files](scenario-6-additional-resources.zip)
+[Scenario 6 - Additional CSV Data Files](gclikkec/beds-hackathon-2017/resources/scenario-6-additional-resources.zip)
 
 
 ## Presentations...
