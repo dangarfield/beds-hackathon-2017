@@ -1,13 +1,5 @@
 # Bedfordshire University & TUI Travel Ltd Hackathon 2017
 
-## Resources...
-  
-[Scenarios 1, 2, 3, 6 & 7 - CSV Data Files](https://www.dropbox.com/s/biyxnixvylasxay/csv-data-files.zip?dl=0)
-
-[Scenarios 1, 2, 3, 6 & 7 - CSV Data Files](https://www.dropbox.com/s/nxdgblg1tldvl37/scenario-6-additional-resources.zip?dl=0)
-  
-[Scenario 3 - AmCharts Javascript Map Resources](https://www.dropbox.com/s/npo6glkelp4fjxd/ammap_3.21.5.free.zip?dl=0)
-
 ## Presentations...
 
 ### Getting Started
