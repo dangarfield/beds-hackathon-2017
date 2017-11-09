@@ -1,5 +1,10 @@
 # Bedfordshire University & TUI Travel Ltd Hackathon 2017
 
+## Resources
+
+[here](https://www.dropbox.com/s/npo6glkelp4fjxd/ammap_3.21.5.free.zip?dl=0)
+
+
 ## Presentations...
 
 ### Getting Started
