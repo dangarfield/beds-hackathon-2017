@@ -72,6 +72,28 @@ __Resources__
 
 Data files (CSV) & starter HTML/CSS files/templates will be available as part of the resources bundle for this scenario.
 
+Example html templates:
+http://tuiwebcoe.github.io/common-ux/pages/templates/0-sg-index.html
+- Specifically look at Sg-tno and Sg-tno2
+
+For the more adventurous page, to creating a page like this:
+https://www.tui.se/resa/thailand/khao-lak/tui-family-life-mai-khao-lak/bilder-film/pc-000071598/?partysizes=2%3B&departureCode=CPH&departureDate=2018-03-04&duration=8&flightInfo=%20-0008SOHKTCPHHKT7C.TOM338%20180305CPH%20F%20%20J%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%201%20F%20&hotelInfo=71598-00KAOMKL%2001SV1O00000C0103%20%2000000#vinter-17-18
+
+You could use the following components:
+
+Components:
+- Brand-Top-Navigation (Organism)
+- Hero (Organism)
+- Breadcrumb
+- Logos-Concepts (Atom)
+- Navigation (Molecule)
+- Filter-List (Molecule)
+- Typography (Atoms)
+- Filter-List (Molecule)
+- Image-Gallery (Organism) & Image-Gallery-Card (Molecule)
+- Typography (Atoms) & Icon-Fonts (Atoms)
+- Footer (Organism)
+
 [Top](#top)
 
 
