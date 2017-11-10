@@ -6,7 +6,10 @@
 
 [Scenarios 1, 2, 3, 6 & 7 - CSV Data Files](https://www.dropbox.com/s/nxdgblg1tldvl37/scenario-6-additional-resources.zip?dl=0)
 
+[Scenario 1 - HTML Templates](https://tuiwebcoe.github.io/common-ux/pages/templates/0-sg-index.html)
+
 [Scenario 3 - AmCharts Javascript Map Resources](https://www.dropbox.com/s/npo6glkelp4fjxd/ammap_3.21.5.free.zip?dl=0)
+
 
 ## Presentations...
 
